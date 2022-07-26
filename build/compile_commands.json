@@ -1,0 +1,147 @@
+[
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/main.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/main.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/main.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/MyClass.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/MyClass.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MyClass.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Typing.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Typing.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Typing.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Input.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Input.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Input.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Word.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Word.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Word.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/SnapShot.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/SnapShot.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/SnapShot.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/History.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/History.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/History.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Title.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Title.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Title.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Cursor.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Cursor.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Cursor.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Fonts.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Fonts.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Fonts.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Item.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Item.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Item.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Itemlist.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Itemlist.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Itemlist.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/LinkedList.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/LinkedList.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/LinkedList.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Iterator.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Iterator.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Iterator.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/DropDown.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/DropDown.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/DropDown.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/InputBox.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/InputBox.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/InputBox.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/State.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/State.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/State.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Menu.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Menu.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Menu.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/MenuBar.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/MenuBar.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MenuBar.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/FileItem.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileItem.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileItem.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/FileNode.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileNode.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileNode.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/FileTree.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileTree.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileTree.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Image.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Image.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Image.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Logo.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Logo.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Logo.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Slider.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Slider.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Slider.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/OneFont.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/OneFont.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OneFont.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/Board.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/Board.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Board.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/ColorPix.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/ColorPix.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/ColorPix.cpp"
+},
+{
+  "directory": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -std=gnu++14 -o CMakeFiles/SFMLset.dir/OpenWindow.cpp.o -c /Users/yiyao/Desktop/MtSac/CS008/SFMLset/OpenWindow.cpp",
+  "file": "/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OpenWindow.cpp"
+}
+]

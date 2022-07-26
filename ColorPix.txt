@@ -1,0 +1,76 @@
+void ColorPix::Insert(int h){
+    Pix.clear();
+    Pix.resize(height*width);
+    float H = h;
+    FindRGB(H);
+    Max = FindMax(R,G,B) /255.00; // 1
+    Min = FindMin(R,G,B) /255.00; // 0
+    float S = (Max - Min)/Max*100*doubleSize; // 100
+    float initialS = (Max - Min)/Max*100*doubleSize; //100
+    float V = Max*100*doubleSize; //100
+    float initialV = Max*100*doubleSize; //100
+    // cout << "Initial Color Set: " << S << ", " << V << ", " << H << endl;
+
+    sf::Color c(R,G,B);
+    int Hi;
+    Hi = H/60;
+    float f;
+    f = float(H/60)-Hi;
+
+    // cout << endl << endl;
+    for(int y = 0; y <= 100*doubleSize; y++){
+        S = initialS;
+        for(int x = 0; x <= 100*doubleSize; x++){        
+            float p = V/100.00/doubleSize*(1-S/100.00/doubleSize)*225.00;
+            float q = V/100.00/doubleSize*(1-f * S/100.00/doubleSize)*225.00;
+            float t = V/100.00/doubleSize*(1-(1-f)*S/100.00/doubleSize)*225.00;
+            //  cout << "Initial Color Set: " << S << ", " << V << ", " << H << endl;
+            //  cout << "Initial Color Set: " << V << ", " << t << ", " << p << endl;
+            // if(S == 0){
+            //     cout << "Sucessfule White" << S << ", " << V << endl;
+            //     cout << "Point : " << x + y*100 << endl;
+            //     cout << "Position: " << x+initialX << ", " << y+initialY << endl;
+            //     cout << "-------------DATA cal " << f << ", " << S << ", " << V << endl;
+            //     cout << "Initial Color Set: " << V/100.00/doubleSize*225.00 << ", " << t << ", " << p << endl;
+            //     cout << endl << endl;
+            // }
+            switch (Hi)
+            {
+            case 0: c.r = V/100.00/doubleSize*225.00;
+                    c.g = t;
+                    c.b = p;
+                break;
+            case 1: c.r = q;
+                    c.g = V/100.00/doubleSize*225.00;
+                    c.b = p;
+                break;
+            case 2: c.r = p;
+                    c.g = V/100.00/doubleSize*225.00;
+                    c.b = t;
+                break;
+            case 3: c.r = p;
+                    c.g = q;
+                    c.b = V/100.00/doubleSize*225.00;
+                break;
+            case 4: c.r = t;
+                    c.g = p;
+                    c.b = V/100.00/doubleSize*225.00;
+                break;
+            case 5: c.r = V/100.00/doubleSize*225.00;
+                    c.g = p;
+                    c.b = q;
+                break;
+            }
+            Pix[x + (y)*100*doubleSize].color = c;
+            Pix[x + (y)*100*doubleSize].position = sf::Vector2f(x+initialX,y+initialY);
+            // if(point == 0 ||point == 100 || point == 10000){
+            //     cout << "Point : " << x + (y)*100 << endl;
+            //     cout << "Position: " << x+initialX << ", " << y+initialY << endl;
+            //     cout << "Color Set: " << S << ", " << V << ", " << H << endl;
+            // }
+            S = S - initialS/100/doubleSize;
+        }
+        V -= initialV/100/doubleSize;
+    }
+    // point.setFillColor(Pix[0].color);
+}

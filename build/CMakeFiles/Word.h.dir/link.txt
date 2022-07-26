@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Word.h.dir/Word.cpp.o CMakeFiles/Word.h.dir/SnapShot.cpp.o CMakeFiles/Word.h.dir/Title.cpp.o CMakeFiles/Word.h.dir/Cursor.cpp.o -o Word.h 

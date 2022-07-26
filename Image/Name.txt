@@ -1,0 +1,19 @@
+Yi Yao Project
+size; 50
+ShadowX; 1000
+ShadowY; 110
+TextX;  570
+TextY;  280
+ShadowCapacity; 10
+TextCapacity;   50
+BGCapacity; 30
+Skew;   250
+BoardFont; 3
+ColorBox;  39
+BGColorBox; 0
+Rainbow; 0
+Shin; 0
+BoardColorPixX; 20
+BoardColorPixY; 20
+BGColorPixX;    20
+BGColorPixY;    20

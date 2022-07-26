@@ -1,0 +1,155 @@
+
+#ifndef SFMLSET_SLIDER_H
+#define SFMLSET_SLIDER_H
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <iostream>
+#include <string>
+using namespace std;
+#include "Fonts.h"
+#include "OneFont.h"
+#include "MouseEvent.h"
+#include "list"
+
+class Slider: public sf::Transformable, public sf::Drawable{
+private:
+    /* data */
+    sf::Text label;
+    sf::RectangleShape line;
+    sf::CircleShape point;
+    sf::Text num;
+    int size;
+    bool click;
+    bool RegularLine;
+
+public:
+    Slider();
+    int getData();
+
+    void setSize(float n);
+    void setLabel(string data);
+    void setPosition(sf::Vector2f position);
+
+    void SUMset(float n, string data, sf::Vector2f position, int s);
+
+    void update();
+    virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
+    void addEventHandler(sf::RenderWindow& window, sf::Event event);
+};
+
+#endif
+
+#include "Slider.h"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// All Initial Setting ---------------------------------------
+Slider::Slider(){
+    label.setFillColor(sf::Color::White);
+    point.setFillColor(sf::Color::White);
+    label.setFont(OneFont::getFont());    
+    num.setFillColor(sf::Color::White);
+    num.setFont(OneFont::getFont());
+    line.setSize({30,10});
+    point.setRadius(20);
+    click = false;
+    RegularLine = false;
+    Colorline = false;    
+    size = 0;
+    sf::String data = to_string(size);
+    num.setString(data);
+    // clicked = false;
+    // box.setSize({500, 300});
+    // box.setFillColor(sf::Color::Blue);
+    // box.setPosition({100, 100});
+}
+
+void Slider::setSize(float n){
+    line.setSize({n+50,10});
+}
+void Slider::setLabel(string data){
+    label.setString(data);
+}
+
+void Slider::setPosition(sf::Vector2f position){
+    label.setPosition(position);
+    // cout << "label x ---------" << position.x << endl;
+    position.x = position.x + label.getGlobalBounds().width + 10;
+    point.setPosition(position);
+    // cout << "point x ---------" << position.x << endl;
+    position.y += 5;
+    line.setPosition(position);
+    position.x = position.x + line.getLocalBounds().width + 40;
+    // cout << "num x ---------" << position.x << endl;
+    num.setPosition(position);
+}
+
+void Slider::SUMset(float n, string data, sf::Vector2f position, int s){
+    line.setFillColor(sf::Color::White);
+    LineSet();
+    setLabel(data);
+    setSize(n);
+    setPosition(position);
+    size = s;
+    sf::String D(to_string(size));
+    num.setString(D);
+    position.x = position.x + label.getGlobalBounds().width + 10 + size;
+    point.setPosition(position);
+    
+    RegularLine = true;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//GetData   -------------------------------
+
+int Slider::getData(){
+    return size;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//AddEVentHandle Updata Window DRAW  -------------------------------
+void Slider::update(){
+
+}
+void Slider::draw(sf::RenderTarget& window, sf::RenderStates states) const{
+    if(RegularLine){
+        // cout << "DRAW reglar line" << endl;
+        window.draw(line);
+    }
+    window.draw(point);
+    window.draw(label);
+    window.draw(num);
+    // window.draw(box);
+}
+void Slider::addEventHandler(sf::RenderWindow& window, sf::Event event){
+
+    sf::Vector2i pos = sf::Mouse::getPosition(window);
+    if (MouseEvents<sf::CircleShape>::mouseClicked(point, window)) {
+        // If the mouse button is not released
+        if (event.type != event.MouseButtonReleased) {
+            click = true;
+            // cout << "Click -----------------" << endl;
+        }
+    }else if (event.type == event.MouseButtonReleased) {
+        click = false;
+        // cout << "Change To FALSE" << endl;
+    }
+
+    if (click) {
+        if(RegularLine == true){
+            size = pos.x - label.getPosition().x - label.getGlobalBounds().width - 10;
+            if(size <= 0){
+                size = 0;
+                pos.x = label.getGlobalBounds().width + label.getPosition().x + 10;
+            }
+            if(size >= (line.getSize().x - 50)){
+                size = line.getSize().x-50;
+                pos.x = label.getGlobalBounds().width + label.getPosition().x + 10 + line.getGlobalBounds().width - 50;
+            }
+            sf::String D(to_string(size));
+            num.setString(D);
+            point.setPosition(pos.x, point.getPosition().y);
+            // std::cout << "Distance: " << point.getPosition().x << std::endl;
+        }
+    }
+}

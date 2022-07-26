@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFMLset"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLset">
+				<Option output="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/SFMLset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLset"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFMLset/fast">
+				<Option output="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/SFMLset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFMLset/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/yiyao/Desktop/MtSac/CS008/SFMLset/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Board.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Board.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Box.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/ColorPix.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/ColorPix.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Cursor.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Cursor.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/DropDown.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/DropDown.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileItem.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileItem.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileNode.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileNode.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileTree.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/FileTree.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Fonts.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Fonts.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/GUIComponents.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/History.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/History.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Image.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Image.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Input.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Input.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/InputBox.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/InputBox.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Item.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Item.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Itemlist.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Itemlist.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Iterator.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Iterator.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/LinkedList.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/LinkedList.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Logo.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Logo.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Menu.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Menu.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MenuBar.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MenuBar.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MouseEvent.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MyClass.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/MyClass.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Node.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OneFont.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OneFont.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OpenWindow.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/OpenWindow.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Slider.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Slider.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/SnapShot.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/SnapShot.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/State.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/State.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Title.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Title.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Typing.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Typing.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Word.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/Word.h">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/main.cpp">
+			<Option target="SFMLset"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/../../../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/../../../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/../../../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/../../../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/yiyao/Desktop/MtSac/CS008/SFMLset/../../../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
